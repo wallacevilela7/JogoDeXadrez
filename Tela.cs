@@ -107,6 +107,7 @@ namespace xadrez_console
 
         public static void ImprimirPeca(Peca peca)
         {
+            
             if (peca == null)
             {
                 Console.Write("- ");
@@ -125,7 +126,6 @@ namespace xadrez_console
                     Console.ForegroundColor = aux;
                 }
             }
-            //Console.Write(" ");
         }
 
     }
